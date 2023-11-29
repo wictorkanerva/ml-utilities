@@ -1,5 +1,3 @@
-# Tidbit: You could put a unciton like this into a script called "helper.py" and import it when you need it...
-
 import matplotlib.pyplot as plt
 def plot_loss_curves(history):
     """
