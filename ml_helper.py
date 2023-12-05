@@ -37,6 +37,14 @@ def plot_loss_curves(history):
 def compare_histories(original_history, new_history, initial_epochs=5):
     """
     Compares two TensorFlow History objects.
+    
+    Args:
+        history: TensorFlow History object
+        history: TensorFlow History object
+        
+    Returns:
+        Plots of trainng/validation loss and accuracy metrics. For both histories
+        to display comparisons.
     """
     # Get original history measurements
     acc = original_history.history["accuracy"]
